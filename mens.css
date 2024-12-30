@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    color: yellow;
+    font-weight: bolder;
+}
+#maindiv{
+   /* background-color: grey; */
+/* padding-top: 20px; */
+margin: 80px 150px;
+display: grid;
+grid-template-columns: 350px 350px 350px ;
+/* padding-left: 50px; */
+gap: 80px;  
+/* padding-bottom: 20px; */
+}
+.cards{
+    /* border: 2px solid black;
+    border-radius: 50px; */
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;    
+    height: 500px;  
+}
+#buttons{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+button{
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#but1{
+    padding-right: 20px;
+}
+
+#dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+#dropdown>li{
+    padding: 10px;
+    cursor: pointer;
+}
+
+#dropdown:hover #dropdown-menu{
+    display: block;
+}
+
+#dropdown-menu{
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 8px 16px rgba(0,0, 0, 0.2);
+    min-width: 200px;
+    z-index: 10;
+
+
+}
+#dropdown-menu li{
+    padding: 10px;
+    cursor: pointer;
+    list-style: none;
+}
+#dropdown-menu li:hover{
+    background-color: #f1f1f1;
+
+}
+#dropdown>li>a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#dropdown-menu li >a{
+    text-decoration: none;
+    color:black !important;
+}
+
+img{
+    border-radius: 20%;
+}
+h1{
+    /* padding-top: 20px; */
+}

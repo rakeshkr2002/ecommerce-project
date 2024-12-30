@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    color: yellow;
+
+}
+nav>div:nth-child(1){
+    font-weight: bolder;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav>div:nth-child(2){
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+a{
+    text-decoration: none !important;
+    color: yellow !important;
+}
+li{
+    list-style: none !important;
+}
+
+nav>div:nth-child(3){
+    font-weight: bold;
+
+}
+.carousel-item{
+    height: 400px;
+    
+}
+.carousel-item>img{
+    height: 400px;
+}
+#dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+#dropdown>li{
+    padding: 10px;
+    cursor: pointer;
+}
+
+#dropdown:hover #dropdown-menu{
+    display: block;
+}
+
+#dropdown-menu{
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 8px 16px rgba(0,0, 0, 0.2);
+    min-width: 200px;
+    z-index: 10;
+
+
+}
+#dropdown-menu li{
+    padding: 10px;
+    cursor: pointer;
+    list-style: none;
+}
+#dropdown-menu li:hover{
+    background-color: #f1f1f1;
+
+}
+#dropdown>li>a{
+    text-decoration: none;
+    color: yellow;
+    font-weight: bold;
+}
+
+#dropdown-menu li >a{
+    text-decoration: none;
+    color:black !important;
+}

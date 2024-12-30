@@ -1,0 +1,47 @@
+body{
+    background-color: yellowgreen;
+    background-image: url(./images/loginimg.webp);
+    color: chartreuse;
+    /* color: darkturquoise; */
+}
+#login-container{
+    width: 400px;
+    height: 300px;
+    /* background-color: white; */
+    margin: 150px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#form-group{
+    margin-bottom: 20px;
+        width: 100%;
+        display: flex;
+        /* flex-direction: column;   */
+        align-items: center;
+        justify-content: center;
+}
+input{
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+label{
+    padding-right: 30px;
+}
+button{
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: cyan;
+}
+#butto{
+    padding-left: 100px;
+}
